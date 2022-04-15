@@ -1,0 +1,122 @@
+@media (max-width: 320px){
+   header{
+      .menu__box{
+        ul{
+        padding-left: 35px;    
+      } 
+      }
+      
+      #menu__toggle:checked ~ .menu__box {
+        .menu__box{
+         top: 90px;
+         width: 320px;
+         height: 544px;
+      
+      }
+      .menu__box-img{
+         .header__social-media{
+            margin-left: -65px;
+            li{
+               width: 35px;
+               height: 35px;
+            }
+         }
+      } 
+      }
+      
+   }
+
+   .welcome{
+      &__image{
+         height: 285px;
+      }
+   }
+
+   .explore{
+      &-img{
+         &__slider{
+            left: 179px;
+            img{
+               height: 260px;
+            }
+         }
+      }
+   }
+
+   .video{
+      &__control-panel{
+         padding: 0px 10px;
+         #volume{
+         width: 150px;
+         margin: 0px 10px;
+        }
+      }
+   }
+
+   .gallery{
+      &-inner-container{
+         img{
+            max-height: 173px ;
+         }
+      }
+   }
+
+   .tickets{
+      &-content{
+         &__amount{
+            margin-left: 20px;
+            h4{
+               margin-left: 50px;
+            }
+            .amount-age{
+               &__title{
+                  margin-left: 0px;
+               }
+               &__number{
+                  margin-left: 0px;
+               }
+               &__button{
+                  margin-left: 0px;
+               }
+            }
+            
+         }
+        
+      }
+      
+   }
+
+   .contacts{
+      &-info{
+         &__map{
+          height: 148px;
+            img{
+                height: 148px;
+            }
+         }
+      }
+   }
+
+   footer{
+      .footer{
+         &__nav{
+            ul{
+               width: 280px;
+               li{
+                   
+                   &:nth-child(3){
+                     margin-left: 35px;
+                   }
+                   &:nth-child(4){
+                     margin-left: 35px;
+                     margin-right: 35px;
+                  }
+               }
+            }
+         }
+         &__social-media{
+            margin-left: 0px;
+         }
+      }
+   }
+}
